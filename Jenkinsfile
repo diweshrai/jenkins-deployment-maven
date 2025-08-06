@@ -28,7 +28,7 @@ pipeline {
         }
         stage('Run Jar') {
             steps {
-                sh 'java -jar target/demo-1.0-SNAPSHOT.jar'
+                sh 'java -jar /Users/diweshrai/.jenkins/workspace/maven-project-3/target/demo-1.0-SNAPSHOT.jar'
             }
         }
     }
